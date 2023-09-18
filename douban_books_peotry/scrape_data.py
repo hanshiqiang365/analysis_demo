@@ -11,7 +11,7 @@ import xlwt
 import openpyxl
 import random
 
-cookie = '''ll="1157683"; bid=_sU_hV7qb04; dbcl2="1312381777:okfsm+CyrjQ"; ck=haXU; ap_v=0,6.0; push_noty_num=0; push_doumail_num=0''' #储存在用户本地终端上的数据
+cookie = 'bid=0dLdq0VMIPs; push_noty_num=0; push_doumail_num=0; __utmv=30149280.27437; ll="118124"; dbcl2="274376876:b28GaYvR1KM"; __utmz=81379588.1694878660.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _vwo_uuid_v2=D63117B98146E5D7916ED0B6CE5936AD4|f241c33f8987c5fc0cdfd5da7c528bad; __yadk_uid=41rd1xnjv0QLeorxEwM91TYVDuaKtjaY; __utmz=30149280.1694881780.9.3.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; _pk_id.100001.3ac3=c09aeebee1fa21b9.1694878660.; ap_v=0,6.0; __utma=30149280.1845687597.1694491924.1694881780.1695019537.10; __utma=81379588.1523236955.1694878660.1694878660.1695019537.2; __utmt=1; ck=do6g; __utmc=30149280; __utmc=81379588; RT=; __utmt_douban=1; __utmb=81379588.13.10.1695019537; __utmt_t1=1; __utmb=30149280.80.8.1695021533783' #储存在用户本地终端上的数据
 dic_c = {}
 for i in cookie.split('; '):
     dic_c[i.split('=')[0]] = i.split('=')[1]
